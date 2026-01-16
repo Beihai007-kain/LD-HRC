@@ -1,4 +1,3 @@
-# models/actor.py
 from __future__ import annotations
 
 import math
@@ -706,3 +705,4 @@ class SharedGATNetwork(nn.Module):
 
         # Final shape: [B, N, D_h]
         return H
+
